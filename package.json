@@ -1,0 +1,17 @@
+{
+  "name": "line_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild hello.js --bundle --outfile=out.js --minify=true --platform=node --target=node12"
+  },
+  "author": "",
+  "devDependencies": {
+    "esbuild": "^0.19.5"
+  },
+  "volta": {
+    "node": "20.9.0"
+  }
+}
